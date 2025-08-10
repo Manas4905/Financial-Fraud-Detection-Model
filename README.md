@@ -8,7 +8,7 @@ My Approach:
 
 I followed a standard machine learning workflow, starting with extensive data exploration and cleaning, followed by model development, and finally, analysis and strategic recommendations.
 
-#1. Data Cleaning and Preprocessing:
+# 1. Data Cleaning and Preprocessing:
    
 I began by analyzing the dataset for issues like missing values, outliers, and multicollinearity.
 
