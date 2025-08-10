@@ -4,6 +4,8 @@ Business Context:
 
 This project aims to develop a model for predicting fraudulent transactions for a financial company. The goal is to use insights from the model to develop an actionable prevention plan. The provided dataset contains over 6 million rows and 10 columns of transactional data.
 
+Link to the Dataset: https://www.dropbox.com/scl/fi/mswmlsic08jpo2itynyrk/Fraud.csv?rlkey=j6qsdz8snj135286j4sw3vjx5&st=pj3pehqj&dl=0
+
 My Approach:
 
 I followed a standard machine learning workflow, starting with extensive data exploration and cleaning, followed by model development, and finally, analysis and strategic recommendations.
