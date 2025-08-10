@@ -22,7 +22,7 @@ Multicollinearity: To address high correlation between balance columns, I engine
 step column into cyclical features (sin_hour, cos_hour, etc.) to capture time-based patterns in the data.
 
 
-2. Fraud Detection Model:
+# 2. Fraud Detection Model:
    
 Model Selection: I chose an XGBoost classifier for its high performance on tabular data and its ability to handle imbalanced datasets effectively.
 
@@ -30,7 +30,7 @@ Data Imbalance: Since fraudulent transactions were a small minority of the data,
 
 Feature Selection: I relied on both data exploration and the model's feature importance to select the most predictive variables.
 
-3. Model Performance:
+# 3. Model Performance:
 
 To demonstrate the model's performance, I used a set of evaluation metrics suitable for imbalanced data.
 
@@ -40,7 +40,7 @@ Confusion Matrix: The confusion matrix shows that the model successfully identif
 
 ROC Curve: The ROC curve with an AUC of 1.00 indicates an excellent ability to distinguish between the two classes.
 
-4. Key Factors and Justification:
+# 4. Key Factors and Justification:
 My feature importance analysis identified the top factors for predicting a fraudulent transaction:
 
 balance_change_orig_yeo: This feature, which represents the change in the originating account's balance, was the most significant predictor.
@@ -52,7 +52,7 @@ type_TRANSFER: The transaction type, specifically TRANSFER, was also a key facto
 These factors make logical sense because the data dictionary explains that fraudulent agents attempt to "empty the funds by transferring to another account and then cashing out". Therefore, a significant change in a customer's balance and the type of transaction being a transfer are direct indicators of the described fraudulent behavior.
 
 
-5. Prevention Strategy:
+# 5. Prevention Strategy:
    
 Based on the model's insights, I recommend the following prevention strategies for the company's infrastructure:
 
@@ -62,7 +62,7 @@ Enhanced Authentication: For flagged transactions, a second layer of authenticat
 
 Transaction Limits: Set dynamic limits on transactions that involve unusual balance changes or high-risk transaction types.
 
-6. Measuring Success:
+# 6. Measuring Success:
    
 To determine the effectiveness of these actions, I would establish key performance indicators (KPIs):
 
