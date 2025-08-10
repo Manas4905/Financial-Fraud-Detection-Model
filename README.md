@@ -53,6 +53,7 @@ These factors make logical sense because the data dictionary explains that fraud
 
 
 5. Prevention Strategy:
+   
 Based on the model's insights, I recommend the following prevention strategies for the company's infrastructure:
 
 Real-time Monitoring: Implement a real-time system to flag transactions that exhibit high-risk patterns based on the top features identified by the model.
@@ -66,5 +67,7 @@ Transaction Limits: Set dynamic limits on transactions that involve unusual bala
 To determine the effectiveness of these actions, I would establish key performance indicators (KPIs):
 
 Reduction in Fraud: The primary measure of success would be a measurable decrease in the number of actual fraudulent transactions over time.
+
 False Positive Rate: A low false-positive rate would be monitored to ensure the new system does not disrupt legitimate customer activity.
+
 Cost-Benefit Analysis: A financial analysis would compare the cost of implementing the new system against the savings from prevented fraud.
